@@ -9,7 +9,7 @@ BOT_TOKEN = "8101821591:AAFoQ7LCEkq7F1XGyxjAhpsUd4P6xI37WhE"
 CHAT_ID = "5360058126"
 
 # ---------------------- Konfigurasi Halaman ----------------------
-st.set_page_config(page_title="Formulir Pemesanan", page_icon="🧪")
+st.set_page_config(page_title="CHEMIGO", page_icon="🧪")
 
 # ---------------------- CSS Gaya Gen Z + WA Floating Button ----------------------
 genz_css = '''
@@ -97,7 +97,7 @@ if not st.session_state.login:
     st.stop()
 
 # ---------------------- Header Aplikasi ----------------------
-st.title("🧪 Formulir Pemesanan Produk CHEMIGO")
+st.title("🧪 CHEMIGO")
 st.markdown("Silakan isi data diri dan pilih produk yang ingin Anda pesan.")
 
 # ---------------------- Data Diri ----------------------
