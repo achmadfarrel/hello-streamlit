@@ -6,7 +6,7 @@ import os
 
 # ---------------------- Konfigurasi Telegram ----------------------
 BOT_TOKEN = "8101821591:AAFoQ7LCEkq7F1XGyxjAhpsUd4P6xI37WhE"
-CHAT_ID = "5360058126"
+CHAT_ID = "1490556477"
 
 # ---------------------- Konfigurasi Halaman ----------------------
 st.set_page_config(page_title="CHEMIGO", page_icon="🧪")
@@ -131,7 +131,7 @@ for produk in produk_data:
 # ---------------------- Metode Pembayaran ----------------------
 st.markdown("---")
 st.markdown("### 💳 Pilih Metode Pembayaran:")
-metode_pembayaran = st.radio("", ["Transfer", "Tunai"])
+metode_pembayaran = st.radio("", ["Transfer", "Cash On Delivery"])
 
 bank_tujuan = None
 bukti_transfer = None
@@ -139,14 +139,17 @@ bukti_transfer = None
 if metode_pembayaran == "Transfer":
     st.markdown("#### 💳 Informasi Transfer:")
     st.markdown("""
-    **GoPay:** 0812-3456-7890  
-    a.n. CHEMIGO STORE  
+    **GoPay:** 0895-6096-27802  
+    a.n. ACHMAD FARREL INDERI  
 
-    **BRI:** 1234-5678-9012-3456  
-    a.n. CHEMIGO STORE
+    **BRI:** 5711-0102-9217-531  
+    a.n. ACHMAD FARREL INDERI
+
+    **BNI:** 1884905416
+    a.n. MUHAMMAD DZIKRIYANSYAH
     """)
 
-    bank_tujuan = st.selectbox("🏦 Pilih Bank Tujuan Transfer", ["GoPay", "BRI"], index=None)
+    bank_tujuan = st.selectbox("🏦 Pilih Bank Tujuan Transfer", ["GoPay", "BRI", "BNI"], index=None)
     bukti_transfer = st.file_uploader("📤 Upload Bukti Pembayaran (jpg/png/pdf)", type=["jpg", "jpeg", "png", "pdf"])
 
 # ---------------------- Tombol Kirim ----------------------
