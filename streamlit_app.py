@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6, label, div, p, span {
   height: 24px;
 }
 </style>
-<a id="wa-button" href="https://wa.me/6281234567890" target="_blank">
+<a id="wa-button" href="https://wa.me/62895609627802" target="_blank">
   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" />
   Chat jika ada pertanyaan
 </a>
@@ -97,7 +97,7 @@ if not st.session_state.login:
     st.stop()
 
 # ---------------------- Header Aplikasi ----------------------
-st.title("🧪 CHEMIGO")
+st.title("🧪 CHEMIGO Solusi Pembelian Alat Kimia, POLITEKNIK AKA BOGOR")
 st.markdown("Silakan isi data diri dan pilih produk yang ingin Anda pesan.")
 
 # ---------------------- Data Diri ----------------------
