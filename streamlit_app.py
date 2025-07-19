@@ -81,7 +81,7 @@ if not st.session_state.login:
             if username in st.session_state.users and st.session_state.users[username] == password:
                 st.session_state.login = True
                 st.success("Berhasil login!")
-                st.experimental_rerun()
+                st.rerun()
             else:
                 st.error("Username atau password salah")
 
