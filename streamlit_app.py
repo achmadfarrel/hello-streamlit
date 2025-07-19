@@ -97,8 +97,8 @@ if not st.session_state.login:
     st.stop()
 
 # ---------------------- Header Aplikasi ----------------------
-st.title("🧪 CHEMIGO Solusi Pembelian Alat Kimia, POLITEKNIK AKA BOGOR")
-st.markdown("Silakan isi data diri dan pilih produk yang ingin Anda pesan.")
+st.title("🧪 CHEMIGO ")
+st.markdown("Solusi Pemesanan Barang di POLITEKNIK AKA BOGOR.")
 
 # ---------------------- Data Diri ----------------------
 nama = st.text_input("👤 Nama Lengkap")
