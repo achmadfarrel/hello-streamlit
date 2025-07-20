@@ -139,12 +139,16 @@ query = st.text_input("Cari produk:", "").lower()
 keranjang = {}
 
 # Tampilkan produk
+cols = st.columns(3)  # tampilkan 3 produk per baris
+
 for i, produk in enumerate(produk_data):
     if query in produk["name"].lower():
-        st.image(produk["image"], width=250)
-        qty = st.number_input(f"{produk['name']} (Rp {produk['price']:,})", min_value=0, step=1, key=f"{produk['name']}_{i}")
-        if qty > 0:
-            keranjang[f"{produk['name']} {i+1}"] = qty
+        with cols[i % 3]:
+            st.image(produk["image"], width=200)
+            qty = st.number_input(f"{produk['name']} (Rp {produk['price']:,})", min_value=0, step=1, key=f"{produk['name']}_{i}")
+            if qty > 0:
+                keranjang[f"{produk['name']} {i+1}"] = qty
+
 
 # ---------------------- Metode Pembayaran ----------------------
 st.markdown("---")
