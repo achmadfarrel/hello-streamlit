@@ -219,3 +219,11 @@ if kirim:
             st.success("✅ Pesanan dan bukti transfer berhasil dikirim!")
         else:
             st.error("❌ Gagal mengirim pesanan atau bukti transfer.")
+if keranjang:
+    st.markdown("---")
+    st.markdown("## Rincian Biaya Akhir")
+    for item, jumlah in keranjang.items():
+        for produk in produk_data:
+            if produk["name"] in item:
+                st.markdown(f"{item}: {jumlah} x Rp {produk['price']:,} = Rp {jumlah * produk['price']:,}")
+    st.markdown(f"### Total: **Rp {total:,}**")
