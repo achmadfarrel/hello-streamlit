@@ -126,7 +126,7 @@ produk_data = [
     {"name": "HAND SANITIZER GEL 60ML", "price": 9000, "image": "https://oemahherborist.co.id/images/produk/primary-perawatan-tubuh-hand-sanitizer-herborist-hand-sanitizer-gel-pembersih-tangan-aloe---60ml.jpg"},
     {"name": "HAND SOAP 250ML", "price": 11000, "image": "https://cms.olaif.com/contents/source/images/product/hand-soap-slide01.jpg"},
     {"name": "TABUNG ULIR", "price": 37000, "image": "https://labmart.id/wp-content/uploads/2024/01/image_2024-01-31_152313306.png"},
-    {"name": "SARUNT TANGAN LATEX UK M", "price": 2500, "image": "https://images.tokopedia.net/img/cache/700/VqbcmM/2022/4/28/caf2240e-f54c-4dfb-ae27-3301f6381a99.jpg"}
+    {"name": "SARUNT TANGAN LATEX UK M", "price": 2500, "image": "https://images.tokopedia.net/img/cache/700/VqbcmM/2022/4/28/caf2240e-f54c-4dfb-ae27-3301f6381a99.jpg"},
 ]
 
 # Fitur pencarian produk
