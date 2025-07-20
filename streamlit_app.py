@@ -219,8 +219,7 @@ if kirim:
             st.success("✅ Pesanan dan bukti transfer berhasil dikirim!")
         else:
             st.error("❌ Gagal mengirim pesanan atau bukti transfer.")
-# Rincian biaya akhir
-if keranjang:
+if keranjang and total > 0:
     st.markdown("---")
     st.markdown("## Rincian Biaya Akhir")
     for item, jumlah in keranjang.items():
