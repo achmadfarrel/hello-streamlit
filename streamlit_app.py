@@ -227,3 +227,4 @@ if keranjang and total > 0:
             if produk["name"] in item:
                 st.markdown(f"{item}: {jumlah} x Rp {produk['price']:,} = Rp {jumlah * produk['price']:,}")
     st.markdown(f"### Total: **Rp {total:,}**")
+  
