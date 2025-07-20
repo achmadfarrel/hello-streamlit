@@ -136,14 +136,7 @@ st.markdown("<h1 style='text-align: center;'>CHEMIGO</h1>", unsafe_allow_html=Tr
 query = st.text_input("Cari produk:", "").lower()
 
 # Keranjang belanja
-total = 0
 keranjang = {}
-for i, produk in enumerate(produk_data):
-    ...
-    if qty > 0:
-        subtotal = qty * produk["price"]
-        total += subtotal
-        keranjang[f"{produk['name']} {i+1}"] = qty
 # Tampilkan produk
 cols = st.columns(3)  # tampilkan 3 produk per baris
 
