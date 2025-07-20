@@ -111,12 +111,23 @@ wa = st.text_input("📱 Nomor WhatsApp (Contoh: 6281234567890)")
 st.markdown("---")
 st.markdown("### 🧾 Pilih Produk:")
 produk_data = [
+    produk_data = [
     {"name": "BEAKER GLASS 100ML", "price": 50000, "image": "https://charlestonscientific.com.sg/wp-content/uploads/2021/10/Glassware-1_beaker-100ml.jpg"},
     {"name": "BEAKER GLASS 250ML", "price": 60000, "image": "https://image.made-in-china.com/2f0j00ihQlwPCcbAfE/Laboratory-Glassware-Beaker-Borosilicate-Pyrex-Glass-Beaker-250ml-500ml-1000ml-Beaker-with-Graduations.jpg"},
     {"name": "PIPET VOLUME 10ML", "price": 95000, "image": "https://www.piwine.com/media/Products/VP10.jpg"},
     {"name": "ERLENMEYER 100ML", "price": 80000, "image": "https://tse2.mm.bing.net/th/id/OIP.T4JuL2Wy5LGHUfnN_Yt64QHaHa?pid=Api&P=0&h=220"},
-    {"name": "BATANG PENGADUK", "price": 30000, "image": "https://labmart.co.id/2099-large_default/glass-rods-batang-pengaduk.jpg"},
-    {"name": "BATANG PENGADUK", "price": 30000, "image": "https://labmart.co.id/2099-large_default/glass-rods-batang-pengaduk.jpg"}
+    {"name": "TABUNG REAKSI", "price": 14000, "image": "https://onemedstore.id/wp-content/uploads/2024/02/5476119_46ab7aaa-078b-4690-8acc-223d20381b15_2000_2000.jpg"},
+    {"name": "BATANG PENGADUK", "price": 10000, "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//91/MTA-4338072/mico_batang_pengaduk_kaca_d-7mm_panjang_15cm_full02_qrmziex4.jpg"},
+    {"name": "BATANG MOHR", "price": 10000, "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//91/MTA-4338072/mico_batang_pengaduk_kaca_d-7mm_panjang_15cm_full02_qrmziex4.jpg"},
+    {"name": "BATANG PENGADUK", "price": 10000, "image": "https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//91/MTA-4338072/mico_batang_pengaduk_kaca_d-7mm_panjang_15cm_full02_qrmziex4.jpg"},
+    {"name": "LABU TAKAR 25ML", "price": 130000, "image": "https://onemedstore.id/wp-content/uploads/2024/07/whatsapp_image_2024-06-29_at_12.17.23__1_.jpg"},
+    {"name": "LABU TAKAR 50ML", "price": 150000, "image": "https://glasswareindonesia.wordpress.com/wp-content/uploads/2018/03/2093-png.gif?w=313&h=313"},
+    {"name": "LABU TAKAR 100ML", "price": 170000, "image": "https://gratisongkir-storage.com/products/900x900/w7tAbIYCg4AY.jpg.jpg"},
+    {"name": "KACAMATA LAB", "price": 27000, "image": "https://cdn.ruparupa.io/fit-in/400x400/filters:format(webp)/filters:quality(90)/ruparupa-com/image/upload/Products/KW1000326_1.jpg"},
+    {"name": "HAND SANITIZER GEL 60ML", "price": 9000, "image": "https://oemahherborist.co.id/images/produk/primary-perawatan-tubuh-hand-sanitizer-herborist-hand-sanitizer-gel-pembersih-tangan-aloe---60ml.jpg"},
+    {"name": "HAND SOAP 250ML", "price": 11000, "image": "https://cms.olaif.com/contents/source/images/product/hand-soap-slide01.jpg"},
+    {"name": "TABUNG ULIR", "price": 37000, "image": "https://labmart.id/wp-content/uploads/2024/01/image_2024-01-31_152313306.png"},
+    {"name": "SARUNT TANGAN LATEX UK M", "price": 2500, "image": "https://images.tokopedia.net/img/cache/700/VqbcmM/2022/4/28/caf2240e-f54c-4dfb-ae27-3301f6381a99.jpg"}
 ]
 
 # Logo dan judul
