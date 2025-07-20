@@ -5,7 +5,7 @@ import json
 import os
 
 # ---------------------- Konfigurasi Telegram ----------------------
-BOT_TOKEN = "8101821591:AAFoQ7LCEkq7F1XGyxjAhpsUd4P6xI37WhE"
+bOT_TOKEN = "8101821591:AAFoQ7LCEkq7F1XGyxjAhpsUd4P6xI37WhE"
 CHAT_ID = "1490556477"
 
 # ---------------------- Konfigurasi Halaman ----------------------
@@ -215,6 +215,6 @@ if kirim:
         time.sleep(1.5)
 
         if response_text.status_code == 200 and (response_file is None or response_file.status_code == 200):
-            st.success("✅ Pesanan dan bukti transfer berhasil dikirim!")
+            st.success("✅ Pesanan dan bukti transfer berhasil dikirim! Admin akan segera memberi pesan kepada anda")
         else:
             st.error("❌ Gagal mengirim pesanan atau bukti transfer.")
