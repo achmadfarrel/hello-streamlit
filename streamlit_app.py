@@ -147,7 +147,7 @@ for i, produk in enumerate(produk_data):
             st.image(produk["image"], width=200)
             qty = st.number_input(f"{produk['name']} (Rp {produk['price']:,})", min_value=0, step=1, key=f"{produk['name']}_{i}")
             if qty > 0:
-              st.markdown(f"Subtotal: **Rp {subtotal:,}**")
+                st.markdown(f"Subtotal: **Rp {subtotal:,}**")
                 keranjang[f"{produk['name']} {i+1}"] = qty
 
 
