@@ -217,7 +217,3 @@ if kirim:
             st.success("✅ Pesanan dan bukti transfer berhasil dikirim!")
         else:
             st.error("❌ Gagal mengirim pesanan atau bukti transfer.")
-
-        if qty > 0:
-    subtotal = qty * produk['price']
-    st.markdown(f"Subtotal: Rp {subtotal:,}")
