@@ -5,7 +5,7 @@ import json
 import os
 
 # ---------------------- Konfigurasi Telegram ----------------------
-bOT_TOKEN = "8101821591:AAFoQ7LCEkq7F1XGyxjAhpsUd4P6xI37WhE"
+BOT_TOKEN = "8101821591:AAFoQ7LCEkq7F1XGyxjAhpsUd4P6xI37WhE"
 CHAT_ID = "1490556477"
 
 # ---------------------- Konfigurasi Halaman ----------------------
